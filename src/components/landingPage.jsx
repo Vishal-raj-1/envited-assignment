@@ -1,4 +1,3 @@
-import React from 'react'
 import LandingPageImage from '../assets/landingPage.svg'
 
 const LandingPage = () => {
@@ -13,7 +12,7 @@ const LandingPage = () => {
                 <p className='text-secondary text-base md:text-xl w-80 sm:w-[400px] pt-1'>Easily host and share events with your friends across any social media.</p>
                 <button className='hidden md:inline-block bg-gradient-to-r to-purple from-pink p-4 rounded-[10px] w-[210px] sm:w-[280px] font-bold text-white font-helvetica my-5'>🎉 Create my event</button>
             </div>
-            <img src={LandingPageImage} alt="landing page image" className='w-[210px] sm:w-[280px] md:w-[480px] drop-shadow-sm' />
+            <img src={LandingPageImage} alt="landing page" className='w-[210px] sm:w-[280px] md:w-[480px] drop-shadow-sm' />
             <button className='inline-block md:hidden bg-gradient-to-r to-purple from-pink p-4 rounded-[10px] w-[210px] sm:w-[280px] font-bold text-white font-helvetica md:order-last'>🎉 Create my event</button>
         </div>
     )

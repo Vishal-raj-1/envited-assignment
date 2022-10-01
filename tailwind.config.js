@@ -11,9 +11,11 @@ module.exports = {
         purple: "#E87BF8",
         pink: "#8456EC",
         dimBlue: "#e1bfff21",
+        muted: "#828282",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        helvetica: ["helvetica", "Arial", "sans-serif"],
       },
     },
     screens: {
